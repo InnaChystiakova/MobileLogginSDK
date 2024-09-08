@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B332D8482C8B0A99004B38D1 /* MobileLogginSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = B332D8472C8B0A99004B38D1 /* MobileLogginSDK.docc */; };
+		B332D84E2C8B0A9A004B38D1 /* MobileLogginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B332D8432C8B0A99004B38D1 /* MobileLogginSDK.framework */; };
+		B332D8532C8B0A9A004B38D1 /* MobileLogginSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8522C8B0A9A004B38D1 /* MobileLogginSDKTests.swift */; };
+		B332D8542C8B0A9A004B38D1 /* MobileLogginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B332D8462C8B0A99004B38D1 /* MobileLogginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B332D8BD2C8B89E6004B38D1 /* MobileLoggingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8BB2C8B89E6004B38D1 /* MobileLoggingSession.swift */; };
+		B332D8BE2C8B89E6004B38D1 /* MobileLoggingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8BC2C8B89E6004B38D1 /* MobileLoggingManager.swift */; };
+		B332D8D02C8C9266004B38D1 /* MobileLoggingURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8CF2C8C9266004B38D1 /* MobileLoggingURLRequest.swift */; };
+		B332D8D32C8CF3C0004B38D1 /* MobileLoggingRequestProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8D22C8CF3C0004B38D1 /* MobileLoggingRequestProtocols.swift */; };
+		B332D8D52C8CF411004B38D1 /* MobileLoggingRequestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8D42C8CF411004B38D1 /* MobileLoggingRequestHelpers.swift */; };
+		B332D8D72C8CF474004B38D1 /* MobileLoggingPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8D62C8CF474004B38D1 /* MobileLoggingPostRequest.swift */; };
+		B332D8D92C8CF4A9004B38D1 /* MobileLoggingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8D82C8CF4A9004B38D1 /* MobileLoggingConstants.swift */; };
+		B332D8DB2C8CF5E7004B38D1 /* MobileLoggerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8DA2C8CF5E7004B38D1 /* MobileLoggerAPI.swift */; };
+		B332D8DE2C8CF7A3004B38D1 /* MobileLoggingSessionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8DD2C8CF7A3004B38D1 /* MobileLoggingSessionProtocols.swift */; };
+		B332D8E02C8CF7C0004B38D1 /* MobileProtocolSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8DF2C8CF7C0004B38D1 /* MobileProtocolSessionError.swift */; };
+		B332D99B2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D99A2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift */; };
+		B332D99D2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D99C2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift */; };
+		B332D99F2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D99E2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B332D84F2C8B0A9A004B38D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B332D83A2C8B0A99004B38D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B332D8422C8B0A99004B38D1;
+			remoteInfo = MobileLogginSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B332D8432C8B0A99004B38D1 /* MobileLogginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileLogginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B332D8462C8B0A99004B38D1 /* MobileLogginSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileLogginSDK.h; sourceTree = "<group>"; };
+		B332D8472C8B0A99004B38D1 /* MobileLogginSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MobileLogginSDK.docc; sourceTree = "<group>"; };
+		B332D84D2C8B0A9A004B38D1 /* MobileLogginSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLogginSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B332D8522C8B0A9A004B38D1 /* MobileLogginSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLogginSDKTests.swift; sourceTree = "<group>"; };
+		B332D8BB2C8B89E6004B38D1 /* MobileLoggingSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileLoggingSession.swift; sourceTree = "<group>"; };
+		B332D8BC2C8B89E6004B38D1 /* MobileLoggingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileLoggingManager.swift; sourceTree = "<group>"; };
+		B332D8CF2C8C9266004B38D1 /* MobileLoggingURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingURLRequest.swift; sourceTree = "<group>"; };
+		B332D8D22C8CF3C0004B38D1 /* MobileLoggingRequestProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingRequestProtocols.swift; sourceTree = "<group>"; };
+		B332D8D42C8CF411004B38D1 /* MobileLoggingRequestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingRequestHelpers.swift; sourceTree = "<group>"; };
+		B332D8D62C8CF474004B38D1 /* MobileLoggingPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingPostRequest.swift; sourceTree = "<group>"; };
+		B332D8D82C8CF4A9004B38D1 /* MobileLoggingConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingConstants.swift; sourceTree = "<group>"; };
+		B332D8DA2C8CF5E7004B38D1 /* MobileLoggerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggerAPI.swift; sourceTree = "<group>"; };
+		B332D8DD2C8CF7A3004B38D1 /* MobileLoggingSessionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingSessionProtocols.swift; sourceTree = "<group>"; };
+		B332D8DF2C8CF7C0004B38D1 /* MobileProtocolSessionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileProtocolSessionError.swift; sourceTree = "<group>"; };
+		B332D99A2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingURLRequestTests.swift; sourceTree = "<group>"; };
+		B332D99C2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingPostRequestTests.swift; sourceTree = "<group>"; };
+		B332D99E2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoggingManagerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B332D8402C8B0A99004B38D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B332D84A2C8B0A9A004B38D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B332D84E2C8B0A9A004B38D1 /* MobileLogginSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B332D8392C8B0A99004B38D1 = {
+			isa = PBXGroup;
+			children = (
+				B332D8452C8B0A99004B38D1 /* MobileLogginSDK */,
+				B332D8512C8B0A9A004B38D1 /* MobileLogginSDKTests */,
+				B332D8442C8B0A99004B38D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B332D8442C8B0A99004B38D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B332D8432C8B0A99004B38D1 /* MobileLogginSDK.framework */,
+				B332D84D2C8B0A9A004B38D1 /* MobileLogginSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B332D8452C8B0A99004B38D1 /* MobileLogginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B332D8462C8B0A99004B38D1 /* MobileLogginSDK.h */,
+				B332D8DA2C8CF5E7004B38D1 /* MobileLoggerAPI.swift */,
+				B332D8BC2C8B89E6004B38D1 /* MobileLoggingManager.swift */,
+				B332D8D82C8CF4A9004B38D1 /* MobileLoggingConstants.swift */,
+				B332D8DC2C8CF777004B38D1 /* Session */,
+				B332D8D12C8CF395004B38D1 /* Request */,
+				B332D8472C8B0A99004B38D1 /* MobileLogginSDK.docc */,
+			);
+			path = MobileLogginSDK;
+			sourceTree = "<group>";
+		};
+		B332D8512C8B0A9A004B38D1 /* MobileLogginSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				B332D8522C8B0A9A004B38D1 /* MobileLogginSDKTests.swift */,
+				B332D99A2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift */,
+				B332D99C2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift */,
+				B332D99E2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift */,
+			);
+			path = MobileLogginSDKTests;
+			sourceTree = "<group>";
+		};
+		B332D8D12C8CF395004B38D1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B332D8D42C8CF411004B38D1 /* MobileLoggingRequestHelpers.swift */,
+				B332D8D22C8CF3C0004B38D1 /* MobileLoggingRequestProtocols.swift */,
+				B332D8CF2C8C9266004B38D1 /* MobileLoggingURLRequest.swift */,
+				B332D8D62C8CF474004B38D1 /* MobileLoggingPostRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B332D8DC2C8CF777004B38D1 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				B332D8DD2C8CF7A3004B38D1 /* MobileLoggingSessionProtocols.swift */,
+				B332D8DF2C8CF7C0004B38D1 /* MobileProtocolSessionError.swift */,
+				B332D8BB2C8B89E6004B38D1 /* MobileLoggingSession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B332D83E2C8B0A99004B38D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B332D8542C8B0A9A004B38D1 /* MobileLogginSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B332D8422C8B0A99004B38D1 /* MobileLogginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B332D8572C8B0A9A004B38D1 /* Build configuration list for PBXNativeTarget "MobileLogginSDK" */;
+			buildPhases = (
+				B332D83E2C8B0A99004B38D1 /* Headers */,
+				B332D83F2C8B0A99004B38D1 /* Sources */,
+				B332D8402C8B0A99004B38D1 /* Frameworks */,
+				B332D8412C8B0A99004B38D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLogginSDK;
+			productName = MobileLogginSDK;
+			productReference = B332D8432C8B0A99004B38D1 /* MobileLogginSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B332D84C2C8B0A9A004B38D1 /* MobileLogginSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B332D85A2C8B0A9A004B38D1 /* Build configuration list for PBXNativeTarget "MobileLogginSDKTests" */;
+			buildPhases = (
+				B332D8492C8B0A9A004B38D1 /* Sources */,
+				B332D84A2C8B0A9A004B38D1 /* Frameworks */,
+				B332D84B2C8B0A9A004B38D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B332D8502C8B0A9A004B38D1 /* PBXTargetDependency */,
+			);
+			name = MobileLogginSDKTests;
+			productName = MobileLogginSDKTests;
+			productReference = B332D84D2C8B0A9A004B38D1 /* MobileLogginSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B332D83A2C8B0A99004B38D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B332D8422C8B0A99004B38D1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B332D84C2C8B0A9A004B38D1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B332D83D2C8B0A99004B38D1 /* Build configuration list for PBXProject "MobileLogginSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B332D8392C8B0A99004B38D1;
+			productRefGroup = B332D8442C8B0A99004B38D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B332D8422C8B0A99004B38D1 /* MobileLogginSDK */,
+				B332D84C2C8B0A9A004B38D1 /* MobileLogginSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B332D8412C8B0A99004B38D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B332D84B2C8B0A9A004B38D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B332D83F2C8B0A99004B38D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B332D8DE2C8CF7A3004B38D1 /* MobileLoggingSessionProtocols.swift in Sources */,
+				B332D8D02C8C9266004B38D1 /* MobileLoggingURLRequest.swift in Sources */,
+				B332D8BE2C8B89E6004B38D1 /* MobileLoggingManager.swift in Sources */,
+				B332D8E02C8CF7C0004B38D1 /* MobileProtocolSessionError.swift in Sources */,
+				B332D8D72C8CF474004B38D1 /* MobileLoggingPostRequest.swift in Sources */,
+				B332D8D92C8CF4A9004B38D1 /* MobileLoggingConstants.swift in Sources */,
+				B332D8D32C8CF3C0004B38D1 /* MobileLoggingRequestProtocols.swift in Sources */,
+				B332D8D52C8CF411004B38D1 /* MobileLoggingRequestHelpers.swift in Sources */,
+				B332D8DB2C8CF5E7004B38D1 /* MobileLoggerAPI.swift in Sources */,
+				B332D8BD2C8B89E6004B38D1 /* MobileLoggingSession.swift in Sources */,
+				B332D8482C8B0A99004B38D1 /* MobileLogginSDK.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B332D8492C8B0A9A004B38D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B332D8532C8B0A9A004B38D1 /* MobileLogginSDKTests.swift in Sources */,
+				B332D99D2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift in Sources */,
+				B332D99B2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift in Sources */,
+				B332D99F2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B332D8502C8B0A9A004B38D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B332D8422C8B0A99004B38D1 /* MobileLogginSDK */;
+			targetProxy = B332D84F2C8B0A9A004B38D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B332D8552C8B0A9A004B38D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B332D8562C8B0A9A004B38D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B332D8582C8B0A9A004B38D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QQ88G577XH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InnaCh.MobileLogginSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B332D8592C8B0A9A004B38D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QQ88G577XH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InnaCh.MobileLogginSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B332D85B2C8B0A9A004B38D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQ88G577XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.InnaCh.MobileLogginSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B332D85C2C8B0A9A004B38D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QQ88G577XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.InnaCh.MobileLogginSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B332D83D2C8B0A99004B38D1 /* Build configuration list for PBXProject "MobileLogginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B332D8552C8B0A9A004B38D1 /* Debug */,
+				B332D8562C8B0A9A004B38D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B332D8572C8B0A9A004B38D1 /* Build configuration list for PBXNativeTarget "MobileLogginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B332D8582C8B0A9A004B38D1 /* Debug */,
+				B332D8592C8B0A9A004B38D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B332D85A2C8B0A9A004B38D1 /* Build configuration list for PBXNativeTarget "MobileLogginSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B332D85B2C8B0A9A004B38D1 /* Debug */,
+				B332D85C2C8B0A9A004B38D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B332D83A2C8B0A99004B38D1 /* Project object */;
+}
