@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B332D8482C8B0A99004B38D1 /* MobileLogginSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = B332D8472C8B0A99004B38D1 /* MobileLogginSDK.docc */; };
-		B332D84E2C8B0A9A004B38D1 /* MobileLogginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B332D8432C8B0A99004B38D1 /* MobileLogginSDK.framework */; };
 		B332D8532C8B0A9A004B38D1 /* MobileLogginSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8522C8B0A9A004B38D1 /* MobileLogginSDKTests.swift */; };
 		B332D8542C8B0A9A004B38D1 /* MobileLogginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B332D8462C8B0A99004B38D1 /* MobileLogginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B332D8BD2C8B89E6004B38D1 /* MobileLoggingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D8BB2C8B89E6004B38D1 /* MobileLoggingSession.swift */; };
@@ -24,6 +23,7 @@
 		B332D99B2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D99A2C8DF32E004B38D1 /* MobileLoggingURLRequestTests.swift */; };
 		B332D99D2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D99C2C8DFB1E004B38D1 /* MobileLoggingPostRequestTests.swift */; };
 		B332D99F2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332D99E2C8E0B83004B38D1 /* MobileLoggingManagerTests.swift */; };
+		B332D9AF2C8E455B004B38D1 /* MobileLogginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B332D8432C8B0A99004B38D1 /* MobileLogginSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B332D84E2C8B0A9A004B38D1 /* MobileLogginSDK.framework in Frameworks */,
+				B332D9AF2C8E455B004B38D1 /* MobileLogginSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +481,6 @@
 		B332D85B2C8B0A9A004B38D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ88G577XH;
@@ -498,7 +497,6 @@
 		B332D85C2C8B0A9A004B38D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ88G577XH;

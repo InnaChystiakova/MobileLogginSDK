@@ -75,6 +75,9 @@ public extension MobileLogger {
     /// `-completion: @escaping (MobileLoggingManagerResult) -> Void` - callback with the result if massage was posted or not
     ///
     func logMultipleMessages(strings: [String], completion: @escaping (MobileLoggerResult) -> Void) {
+        if strings.isEmpty {
+            completion(.failure("Array is empty"))
+        }
         let commonString = strings.joined(separator: "<>")
         manager.post(body: [.myString: commonString], completion: completion)
     }
@@ -126,12 +129,13 @@ public extension MobileLogger {
         manager.postMessageIfValidFormat(string: string, regex: regex, completion: completion)
     }
     ///
-    /// Function allows to get the curl format of POST request for logging message.
+    /// Function allows to get the curl format of the request for logging message.
     /// MobileLoggerResult.success will return the curl in a String format
+    /// It doesn't post a message. Just get the curl string.
     ///
     /// Parameters:
-    /// `-string: String` - message to post
-    /// `-completion: @escaping (MobileLoggingManagerResult) -> Void` - callback with the result if massage was posted or not
+    /// `-string: String` - message
+    /// `-completion: @escaping (MobileLoggingManagerResult) -> Void` - callback with the result
     ///
     func getLogCurlCommand(for message: String, completion: (MobileLoggerResult) -> Void) {
         manager.generatePostRequestCurlCommand(for: message, completion: completion)
